@@ -1,0 +1,24 @@
+$colorText : #5a6672;
+$bgcolor: #C5D0DB;
+.footer{
+    background-color: $bgcolor;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    bottom: 0;
+    padding-top: 20px;
+    color: $colorText;
+
+    .date{
+        flex: 1;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .author{
+        flex: 1;
+        text-align: right;
+        padding-right: 30px;
+    }
+}
