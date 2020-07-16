@@ -1,10 +1,9 @@
-<div class="card" style="width: 18rem;">
+<div class="card card-finance">
     <div class="card-body">
       <h5 class="card-title">{{data.name}}</h5>
       <h6 class="card-subtitle mb-2 text-muted">{{transformDate(data.date)}}</h6>
       <p class="card-text">{{data.name}}</p>
       <p class="card-text"><strong>{{data.value}} {{data.unit}}</strong></p>
-      <a href="#" class="card-link">Detalle</a>
-      <!-- <a href="#" class="card-link"></a> -->
+      <a class="btn-link" (click)="goToDetail(data)">Detalle</a>
     </div>
   </div>
