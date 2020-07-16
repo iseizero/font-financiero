@@ -10,6 +10,6 @@ export class FinancesService {
   constructor(private http: HttpClient) { }
 
   getAllMetrics(): Observable<any> {
-    return this.http.get(`http://localhost:4020/init`);
+    return this.http.get(`http://localhost:4020/v1/api/numbers/all`);
   }
 }

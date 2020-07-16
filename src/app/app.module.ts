@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { InitComponent } from './components/init/init.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
+import { CardComponent } from './components/shared/card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InitComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
